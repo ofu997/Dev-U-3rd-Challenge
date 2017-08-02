@@ -11,16 +11,16 @@
         How do you take notes?
         <br />
         <br />
-        <asp:RadioButton ID="Pencil" runat="server" OnCheckedChanged="RadioButton1_CheckedChanged" Text="Pencil" />
+        <asp:RadioButton ID="Pencil" runat="server" OnCheckedChanged="RadioButton1_CheckedChanged" Text="Pencil" GroupName="images" />
         <br />
         <br />
-        <asp:RadioButton ID="Pen" runat="server" Text="Pen" />
+        <asp:RadioButton ID="Pen" runat="server" Text="Pen" GroupName="images" />
         <br />
         <br />
-        <asp:RadioButton ID="Phone" runat="server" Text="Phone" />
+        <asp:RadioButton ID="Phone" runat="server" Text="Phone" GroupName="images" />
         <br />
         <br />
-        <asp:RadioButton ID="Tablet" runat="server" OnCheckedChanged="RadioButton4_CheckedChanged1" Text="Tablet" />
+        <asp:RadioButton ID="Tablet" runat="server" OnCheckedChanged="RadioButton4_CheckedChanged1" Text="Tablet" GroupName="images" />
         <br />
         <br />
         <asp:Button ID="okButton" runat="server" OnClick="okButton_Click" Text="*!~ OK ~!*" />

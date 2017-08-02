@@ -27,10 +27,10 @@ namespace DevULesson3
 		protected void okButton_Click(object sender, EventArgs e)
 		{
 			double price = 0;
-
+			// Price by size: sizegroup
 			if (small.Checked)
 			{
-				price = price + 2;
+				price = price + 10;
 			}
 			else if (medium.Checked)
 			{
@@ -40,7 +40,7 @@ namespace DevULesson3
 			{
 				price = price + 16;
 			}
-			// CRUST
+			// price by crust: crustgroup
 			if (deepDish.Checked)
 			{
 				price = price + 2;
